@@ -35,7 +35,7 @@ const (
 	worker              = "0"
 	ui                  = false
 	embedEtcd           = false
-	defaultCidr         = "10.42.0.0/16"
+	defaultCidr         = ""
 	uploadManifestCmd   = "echo \"%s\" | base64 -d | tee \"%s/%s\""
 	dockerInstallScript = "https://get.docker.com"
 
